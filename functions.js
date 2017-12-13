@@ -13,6 +13,7 @@ window.addEventListener('load', init);
   function init () {
   console.log("Dude wtf");
   }
+  
   overlay_navigation.toggleClass("overlay-active");
   if (overlay_navigation.hasClass("overlay-active")) {
     top_bar.removeClass("animate-out-top-bar").addClass("animate-top-bar");
