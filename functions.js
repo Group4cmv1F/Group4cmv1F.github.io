@@ -10,7 +10,7 @@ $(".open-overlay").click(function() {
     bottom_bar = $(".bar-bottom");
   
 window.addEventListener('load', init);
-  function init (); {
+  function init () {
   console.log("Dude wtf");
   }
   overlay_navigation.toggleClass("overlay-active");
