@@ -8,8 +8,11 @@ $(".open-overlay").click(function() {
     top_bar = $(".bar-top"),
     middle_bar = $(".bar-middle"),
     bottom_bar = $(".bar-bottom");
-
+  
+window.addEventListener('load', init);
+  function init (); {
   console.log("Dude wtf");
+  }
   overlay_navigation.toggleClass("overlay-active");
   if (overlay_navigation.hasClass("overlay-active")) {
     top_bar.removeClass("animate-out-top-bar").addClass("animate-top-bar");
