@@ -1,3 +1,5 @@
+// Robin
+
 body {
   overflow: hidden;
 }
@@ -438,4 +440,82 @@ Animation keyframes
   nav li a:before {
     width: 15px;
   }
+}
+
+
+// Machteld
+/* 
+    Created on : 4-dec-2017, 23:34:45
+    Author     : HD Dalhuisen
+*/
+.board {
+    position: absolute;
+    height: 600px;
+    width: 750px;
+}
+
+#destination {
+    max-height: 100%;
+}
+.west {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    left: 5%;
+    height: 12%;
+    
+    transform: rotate(270deg);
+}
+.north {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 12%;
+}
+.east {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    right: 5%;
+    height: 12%;
+    
+    transform: rotate(90deg);
+}
+.south {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 12%;
+}
+
+.cards {
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 72%;
+}
+.row {
+    height: 20%;
+}
+#row0 {
+    top: 0;
+}
+#row5 {
+    top: 20%;
+}
+#row10 {
+    top: 40%;
+}
+#row15 {
+    top: 60%;
+}
+#row20 {
+    top: 80%;
+}
+.card {
+    max-height: 100%;
+    width: 18%;
 }
